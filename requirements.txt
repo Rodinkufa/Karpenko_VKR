@@ -1,0 +1,10 @@
+pandas
+nest_asyncio
+telethon
+xgboost
+joblib
+scikit-learn
+matplotlib
+natasha
+moexalgo
+openpyxl
