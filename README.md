@@ -28,19 +28,22 @@ This repository contains materials for a Master's thesis focused on detecting si
     jupyter notebook analyze.ipynb
     ```
 
+## `market_analyzer` Module Structure
+
+```text
 market_analyzer/
 ├── __init__.py                     # Module initialization
 ├── extract.py                      # Extracting news from a Telegram channel
 ├── detect_signal.py                # Classifying news as signal/non-signal
 ├── detect_ticker.py                # Extracting stock tickers from news text
-├── anomaly_matcher.py               # Detecting volume anomalies using MOEX data
+├── anomaly_matcher.py              # Detecting volume anomalies using MOEX data
 ├── models/
 │   ├── xgb_best_weighted_model.json   # Pretrained XGBoost model
 │   └── tfidf_vectorizer.joblib        # TF-IDF vectorizer
 ├── data/
 │   ├── filtered_interfax_data.xlsx    # Manually labeled historical news data
 │   └── logged_predictions.csv         # Log of model predictions with timestamps
-
+```
 
 
 ## Technologies Used
