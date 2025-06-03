@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: market-analyzer
+Version: 0.1
+Summary: Library for detecting market anomalies using Telegram news and MOEX data
+Author: RodinK_UFA
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
